@@ -1,0 +1,91 @@
+nav {
+  position: fixed;
+  left: 0;
+  top: 60.6px;
+  bottom: 0;
+  width: 59px;
+  background-color: white;
+  padding-top: 15px;
+  border: 1px solid rgb(203, 203, 203);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  overflow-y: scroll;
+  }
+
+
+.home-icon-container,
+.my-profile-photo-container,
+.watch-icon-container,
+.marketplace-icon-container,
+.gaming-icon-container,
+.links-icon-container,
+.group-picture-container {
+  width: 44px;
+  height: 40px;
+  border-radius: 8px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.menu-icon-container,
+.groups-icon-container {
+  width: 32.5px;
+  height: 32.5px;
+  border-radius: 22px;
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.home-icon-container:hover,
+.my-profile-photo-container:hover,
+.watch-icon-container:hover,
+.marketplace-icon-container:hover,
+.gaming-icon-container:hover,
+.links-icon-container:hover,
+.group-picture-container:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.menu-icon-container:hover,
+.groups-icon-container:hover {
+  background-color: rgb(220, 220, 220);
+}
+.home-icon {
+  width: 19px;
+  height: 18px;
+}
+
+.my-profile-photo {
+  width: 24px;
+  border-radius: 12px;
+}
+
+.menu-icon {
+  width: 19px;
+}
+
+.groups-icon {
+  width: 16px;
+  height: 18px;
+}
+
+.watch-icon,
+.marketplace-icon,
+.gaming-icon,
+.links-icon {
+  width: 25px;
+}
+
+.group-picture {
+  width: 23px;
+  border-radius: 8px;
+  border: 1.5px solid rgb(212, 212, 212);
+}

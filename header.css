@@ -1,0 +1,105 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border: 1px solid rgb(203, 203, 203);
+  padding: 7px 0px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  z-index: 200;
+}
+
+.left-section {
+  display: flex;
+  flex: 1;
+  margin-right: 20px;
+}
+
+.facebook-icon {
+  width: 157px;
+}
+
+.search-bar-container {
+  position: relative;
+  width: 300p;
+  flex: 1;
+  display: flex;
+}
+
+.search-bar {
+  flex: 1;
+  border: none;
+  background-color: rgb(230, 230, 230);
+  padding: 14px 38px;
+  border-radius: 30px;
+  width: 0;
+  max-width: 400px;
+  font-size: 15.5px;
+}
+
+.search-bar::placeholder {
+  font-size: 15.5px;
+  color: rgb(99, 99, 99);
+}
+
+.search-bar:focus {
+  outline: none;
+}
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 12px;
+  width: 22px;
+}
+
+.right-section {
+  width: 136px;
+  padding-left: 4px;
+  padding-right: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.messenger-icon-container,
+.notifications-icon-container,
+.my-account-photo {
+  background-color: rgb(230, 230, 230);
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.messenger-icon {
+  width: 21px;
+}
+
+.notifications-icon {
+  width: 17.5px;
+}
+.my-account-photo-container {
+  display: flex;
+  position: relative;
+}
+.down-arrow-container {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  bottom: -1.7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.down-arrow {
+  background-color: rgb(230, 230, 230);
+  border-radius: 6px;
+  width: 12px;
+}
